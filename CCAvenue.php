@@ -1,5 +1,5 @@
 <?php
-namespace ramprasadm1986\ccavenue\CCAvenue;
+namespace ramprasadm1986\ccavenue;
 
 use ramprasadm1986\ccavenue\Crypto;
 
@@ -48,7 +48,7 @@ class CCAvenue
         
         $encrypted_data=Crypto::encrypt( $merchant_data,$this->working_key);
         
-        return ['access_code'=>$this->access_code,"encrypted_data"=>$encrypted_data];
+        return ['url'=>$this->url,'access_code'=>$this->access_code,"encrypted_data"=>$encrypted_data];
     }
     
     
