@@ -1,0 +1,23 @@
+{
+    "name": "ramprasadm1986/yii2-ccavenue",
+    "description": "Yii2 CCAvenue Payment Gateway",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","CCAvenue","Checkout","CCAvenue Php Checkout","CCAvenue checkout","payment","simple online payment", "checkout"],
+      "license": "https://github.com/ramprasadm1986/yii2-ccavenue/blob/master/LICENSE",
+    "homepage": "https://github.com/ramprasadm1986/yii2-ccavenue/",
+    "license": "Apache-2.0",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Ramprasad",
+            "email": "ramprasad@krititech.in"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ramprasadm1986\\ccavenue\\": ""
+        }
+    }
+}
